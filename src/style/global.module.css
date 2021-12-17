@@ -1,0 +1,98 @@
+.container {
+    max-width: 560px;
+    margin: 2rem auto;
+}
+
+@media screen and (max-width: 468px) {
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.title {
+    text-align: center;
+}
+
+.google_logo {
+    font-family: zocial;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 .5em 0 0;
+    padding: 0 .5em 0 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    font-smooth: antialiased;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg')
+}
+
+.google_button {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 2.5em;
+    height: 2.5em;
+    font-size: 80%;
+    font-family: inherit;
+    font-weight: 500;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #fff;
+    padding: 0 .7em 0 0;
+    margin: 6px 0;
+    border-radius: 2px;
+    box-sizing: content-box;
+    cursor: pointer;
+    text-decoration: none;
+    background: #4285f4;
+    border: 1px solid #4285f4
+}
+
+.google_button .google_logo {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 100%;
+    width: 2.5em;
+    height: 2.5em;
+    padding: 0;
+    margin-right: .7em;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 1.8em 1.8em;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    transition: all 0.2s ease-in-out;
+}
+
+.google_button:focus .google_logo,
+.google_button:hover .google_logo{
+    background-color: hsla(0, 0%, 100%, .75)
+}
+
+.centering {
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.logout_button {
+    background-color: #fff;
+    border: 1px solid #4285f4;
+    color: #4285f4;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: .5rem 2rem;
+    margin: 6px 0;
+    border-radius: .4rem;
+    box-sizing: content-box;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+}
